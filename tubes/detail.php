@@ -29,7 +29,7 @@ $mhs = query("SELECT * FROM sepatu WHERE id = $id");
 		<li>Nama : <?= $mhs['nama']; ?></li>
 		<li>Harga : <?= $mhs['harga']; ?></li>
 		<li>Ukuran : <?= $mhs['ukuran']; ?></li>
-		<li><a href="ubah.php?id=<?= $mhs['Id']; ?>">ubah</a> | <a href="hapus.php?id=<?= $mhs['Id']; ?>" onclick= "return confirm('apakah anda yakin?');">hapus</a></li>
+		<li><a href="ubah.php?Id=<?= $mhs['Id']; ?>">ubah</a> | <a href="hapus.php?Id=<?= $mhs['Id']; ?>" onclick= "return confirm('apakah anda yakin?');">hapus</a></li>
 		<li><a href="index.php">Kembali ke daftar sepatu</a></li>
 	</ul>
 

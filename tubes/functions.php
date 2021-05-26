@@ -95,7 +95,7 @@ function tambah($data)
 	}
 
 	$query = "INSERT INTO
-	            mahasiswa
+	            sepatu
 	            VALUES
 	          (null, '$gambar', '$nama', '$harga', '$ukuran');
 	          ";
