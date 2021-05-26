@@ -25,10 +25,10 @@ if (isset($_POST['tambah'])) {
 <html>
 
 <head>
-  <title>Tambah Data Mahasiswa</title>
+  <title>Tambah Data sepatu</title>
 </head>
 <body>
-    <h3>Form Tambah Data Mahasiswa</h3>
+    <h3>Form Tambah Data sepatu</h3>
     <form action="" method="POST" enctype="multipart/form-data">
         <ul>
             <li>

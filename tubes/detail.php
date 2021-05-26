@@ -11,7 +11,7 @@ require 'functions.php';
 // Ambil id dari URL
 $id = $_GET['id'];
 
-// Query mahasiswa berdasarkan id
+// Query sepatu berdasarkan id
 $mhs = query("SELECT * FROM sepatu WHERE id = $id");
 ?>
 
