@@ -5,7 +5,6 @@
     Github : https://github.com/AdinataKW
     MataKuliah : Pemrograman Web
  -->
-
  <?php
 function koneksi()
 {
