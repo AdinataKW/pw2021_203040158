@@ -5,7 +5,6 @@
     Github : https://github.com/AdinataKW
     MataKuliah : Pemrograman Web
  -->
- 
  <?php
     require 'php/functions.php';
     $mahasiswa = query("SELECT * FROM mahasiswa")
